@@ -48,12 +48,12 @@
 
 p {
   color: white;
-}
-
-div {
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .bedroom {
